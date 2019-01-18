@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7DD7C2D1C6D749EC97FDA3B3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72E4F7A4F3F448439FC47A59 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BAF30B3617EC47F1AC95BA10 /* CMake Rules */,
+			);
+			dependencies = (
+				675AFD9ED798425EBD1295BE /* PBXTargetDependency */,
+				A3F31D5B014B419A88D9D347 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B3307F35FC0C4C8EB60AF51A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BE48E9C5753642BBAB623ED9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CDC1378B243F48509BA25BAD /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A720A6451C14A8CB3EF6240 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstate.c */ = {isa = PBXBuildFile; fileRef = DD47F9CA76B64431955052B3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstate.c */; };
+		10B794982FC24066B938CCDB /* /Users/Jonny/Project/xlua_libs/build/luasocket/luasocket.c */ = {isa = PBXBuildFile; fileRef = 4624E8694201457084FB387F /* /Users/Jonny/Project/xlua_libs/build/luasocket/luasocket.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		1752E16F1EE441E6BA55135B /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lzio.c */ = {isa = PBXBuildFile; fileRef = 8F09B82870794AC896908EF8 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lzio.c */; };
+		1DD9873B29A94AD6B29D243E /* /Users/Jonny/Project/xlua_libs/build/luasocket/auxiliar.c */ = {isa = PBXBuildFile; fileRef = E5599601029D4EDAA654F173 /* /Users/Jonny/Project/xlua_libs/build/luasocket/auxiliar.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		1E7535BB6C704E0FA7F2591A /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstrlib.c */ = {isa = PBXBuildFile; fileRef = 9814E5A6CF6D4C09A06199BD /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstrlib.c */; };
+		27BF6F23528A41D0B60E7098 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmem.c */ = {isa = PBXBuildFile; fileRef = C0249991FE074ADCBE93B993 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmem.c */; };
+		3F0FF4436D884A6AA5D7F491 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/liolib.c */ = {isa = PBXBuildFile; fileRef = 58E5E31F1662430C8DAD8FB7 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/liolib.c */; };
+		408FCFC19E1F4245A460CDC1 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldebug.c */ = {isa = PBXBuildFile; fileRef = 7650CE0F1B7140F6A889ACFE /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldebug.c */; };
+		43D9FEAB4753465790B271FD /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lutf8lib.c */ = {isa = PBXBuildFile; fileRef = 99EF2A381EA04695BCC24ED0 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lutf8lib.c */; };
+		451CAA81877846968C879126 /* /Users/Jonny/Project/xlua_libs/build/build_ios/CMakeFiles/xlua.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 21C643DE187A44F7AE416483 /* /Users/Jonny/Project/xlua_libs/build/build_ios/CMakeFiles/xlua.dir/Info.plist */; };
+		45ADA889CBB84681BEE831A0 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lopcodes.c */ = {isa = PBXBuildFile; fileRef = 6A5749BCCA474AF4882C99C9 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lopcodes.c */; };
+		4956B2F975404FAC989378D8 /* /Users/Jonny/Project/xlua_libs/build/luasocket/udp.c */ = {isa = PBXBuildFile; fileRef = 109150E1511F4D0C9A1BBF11 /* /Users/Jonny/Project/xlua_libs/build/luasocket/udp.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		4CEEEFD5EEC14F378EBECF41 /* /Users/Jonny/Project/xlua_libs/build/luasocket/buffer.c */ = {isa = PBXBuildFile; fileRef = 840E693A56D54500B42FE931 /* /Users/Jonny/Project/xlua_libs/build/luasocket/buffer.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		4D5986B4756448B49431A85A /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldblib.c */ = {isa = PBXBuildFile; fileRef = DBB96387566B4FD1A7C90923 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldblib.c */; };
+		500B280622E145A2BB189BA3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcode.c */ = {isa = PBXBuildFile; fileRef = 9456F995C1274C1FA50B263B /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcode.c */; };
+		55412D42B64345E5AB5618A2 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcorolib.c */ = {isa = PBXBuildFile; fileRef = 77577EAF82674166A61EEA2E /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcorolib.c */; };
+		5F1BF4A263FA43B28DB939BF /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lfunc.c */ = {isa = PBXBuildFile; fileRef = A6139EB099F546398C611956 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lfunc.c */; };
+		5F819E7628404E06ACD73476 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loadlib.c */ = {isa = PBXBuildFile; fileRef = E76B4EB1042C425BAC9353AC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loadlib.c */; };
+		65FAD099D65A49209142476F /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lvm.c */ = {isa = PBXBuildFile; fileRef = CDCB85C6539443C99C367D50 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lvm.c */; };
+		6873B2223AF7468EB6E3D17A /* /Users/Jonny/Project/xlua_libs/build/luasocket/except.c */ = {isa = PBXBuildFile; fileRef = C55BCC394DA34738848111F4 /* /Users/Jonny/Project/xlua_libs/build/luasocket/except.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		68B13A2857284D1986BD9483 /* /Users/Jonny/Project/xlua_libs/build/luasocket/io.c */ = {isa = PBXBuildFile; fileRef = 52BB70D60B474082B51B9234 /* /Users/Jonny/Project/xlua_libs/build/luasocket/io.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		6E8073113BD04BEC8032673F /* /Users/Jonny/Project/xlua_libs/build/luasocket/usocket.c */ = {isa = PBXBuildFile; fileRef = 86EA7B4915844457A4ED2886 /* /Users/Jonny/Project/xlua_libs/build/luasocket/usocket.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		70A6F9CC40CB4DBEB4432648 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbaselib.c */ = {isa = PBXBuildFile; fileRef = 9A06613049E84B8ABA622691 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbaselib.c */; };
+		73DA039287D94CB980246BE9 /* /Users/Jonny/Project/xlua_libs/build/luasocket/inet.c */ = {isa = PBXBuildFile; fileRef = 3A512223E57241378B6B8277 /* /Users/Jonny/Project/xlua_libs/build/luasocket/inet.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		78E69939BABA4B8AAE813CB3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lapi.c */ = {isa = PBXBuildFile; fileRef = 7410EB6F72594A5792E04B1D /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lapi.c */; };
+		7A63C4406AD04254B1382C36 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltablib.c */ = {isa = PBXBuildFile; fileRef = 2D1574B741AC4202806D6121 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltablib.c */; };
+		7B1DA1C0C7824BE69946F85D /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltm.c */ = {isa = PBXBuildFile; fileRef = E70BF1FB0D1943E586674E87 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltm.c */; };
+		8018043AEB4B432F85474C02 /* /Users/Jonny/Project/xlua_libs/build/luasocket/timeout.c */ = {isa = PBXBuildFile; fileRef = ADE04E23899A4B4B95D8971A /* /Users/Jonny/Project/xlua_libs/build/luasocket/timeout.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		868DA3B62BEE4938B64B0703 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/llex.c */ = {isa = PBXBuildFile; fileRef = 524913C3A67845008487C9FC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/llex.c */; };
+		904B28A9112D499E8A7BA557 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstring.c */ = {isa = PBXBuildFile; fileRef = 6B0074C350444C94A3A65B6E /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstring.c */; };
+		909CCEDE86CB4305AFD06C0A /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbitlib.c */ = {isa = PBXBuildFile; fileRef = 6ADC398FDCD44E0E93516433 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbitlib.c */; };
+		959B57DAC480460689033F1F /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loslib.c */ = {isa = PBXBuildFile; fileRef = 32AE785AD3BF4F52B6CE9400 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loslib.c */; };
+		960A476FF3E1417EA1B90EDC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lundump.c */ = {isa = PBXBuildFile; fileRef = ED6A59EB23B5485988A84367 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lundump.c */; };
+		9968403A2DB647E98C78A038 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lauxlib.c */ = {isa = PBXBuildFile; fileRef = 846B071C966B4FACB1BC7324 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lauxlib.c */; };
+		A250E1A3BD524B689CAC56B1 /* /Users/Jonny/Project/xlua_libs/build/luasocket/mime.c */ = {isa = PBXBuildFile; fileRef = 5AB9D11AC3A8446A8AEB3F59 /* /Users/Jonny/Project/xlua_libs/build/luasocket/mime.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		AC16E9141A6349029BC92614 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lparser.c */ = {isa = PBXBuildFile; fileRef = 4E646134272D432388261D75 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lparser.c */; };
+		B612889136A842B4A4A7B562 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/linit.c */ = {isa = PBXBuildFile; fileRef = 7CE27FF112E64313A64AE4E4 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/linit.c */; };
+		BAA63637FB0D43F9BB58B640 /* /Users/Jonny/Project/xlua_libs/build/luasocket/select.c */ = {isa = PBXBuildFile; fileRef = 9F48D6A4C9D348C3854541DF /* /Users/Jonny/Project/xlua_libs/build/luasocket/select.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		BAFD72C94081408F8B4086B7 /* /Users/Jonny/Project/xlua_libs/build/lua-protobuf/pb.c */ = {isa = PBXBuildFile; fileRef = 61FEBA3326ED420E9518FEE3 /* /Users/Jonny/Project/xlua_libs/build/lua-protobuf/pb.c */; settings = {COMPILER_FLAGS = "-DLUA_LIB "; }; };
+		C1B3C60183B440049F78372B /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lobject.c */ = {isa = PBXBuildFile; fileRef = C94B92B9CD464AA5A93A90A8 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lobject.c */; };
+		C823FE610A6D4A53A37A0BD0 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldo.c */ = {isa = PBXBuildFile; fileRef = F2392FC2B3AB4184BF9CFECF /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldo.c */; };
+		CCB76DBC51474B2892344571 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmathlib.c */ = {isa = PBXBuildFile; fileRef = EA5D379C4EC24C83949B9049 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmathlib.c */; };
+		D5C72D364FA3464C9B58A206 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lgc.c */ = {isa = PBXBuildFile; fileRef = 429BA8C4D0624028BE7107D3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lgc.c */; };
+		D9D3CE472E724FB7829C1130 /* /Users/Jonny/Project/xlua_libs/build/i64lib.c */ = {isa = PBXBuildFile; fileRef = 8EA5550B6C944C2D887EB85A /* /Users/Jonny/Project/xlua_libs/build/i64lib.c */; };
+		DDC6AC1023384A16BA47839B /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0DAF2CBB210B4A4BB70771BE /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */; };
+		DFF3E7E105074EEDA8DE7384 /* /Users/Jonny/Project/xlua_libs/build/perflib.c */ = {isa = PBXBuildFile; fileRef = 44D8966DE15C4F8E81961162 /* /Users/Jonny/Project/xlua_libs/build/perflib.c */; };
+		E146DBB74353417F96AB554F /* /Users/Jonny/Project/xlua_libs/build/xlua.c */ = {isa = PBXBuildFile; fileRef = 41C04BDCE5464A66A50C47FE /* /Users/Jonny/Project/xlua_libs/build/xlua.c */; };
+		E5DC42785889467DA91F2EAE /* /Users/Jonny/Project/xlua_libs/build/luasocket/tcp.c */ = {isa = PBXBuildFile; fileRef = FFA08D98B98C460FA46B3AE7 /* /Users/Jonny/Project/xlua_libs/build/luasocket/tcp.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+		EB8EE6375671467C95364F96 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltable.c */ = {isa = PBXBuildFile; fileRef = 7C83F631F1834D698BD85207 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltable.c */; };
+		EDA8A48C772D427391DA3A2D /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lctype.c */ = {isa = PBXBuildFile; fileRef = 8593855598A34813AAEF38C9 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lctype.c */; };
+		F4474E10C67243EF81BE9907 /* /Users/Jonny/Project/xlua_libs/build/memory_leak_checker.c */ = {isa = PBXBuildFile; fileRef = 19BD9B9E13EC426797E04D1E /* /Users/Jonny/Project/xlua_libs/build/memory_leak_checker.c */; };
+		FAB3A68CB8DD443DAA504593 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldump.c */ = {isa = PBXBuildFile; fileRef = 6AC0161E86DA4C95839A70F4 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldump.c */; };
+		FDB8B8F0206344FBA3052538 /* /Users/Jonny/Project/xlua_libs/build/luasocket/options.c */ = {isa = PBXBuildFile; fileRef = 9AF13F5071A6424494C189EA /* /Users/Jonny/Project/xlua_libs/build/luasocket/options.c */; settings = {COMPILER_FLAGS = "-DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS "; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		18BB00D51F134D59A5AA8C39 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		1C7AF26E4D7E41638C53CBC3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		4301756671D9449FA042CB4F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		663AE98E2B194609B146B2DC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0B52693EB13A4ED494EA7E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08015BF4D22149E6A5E58731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3307F35FC0C4C8EB60AF51A;
+			remoteInfo = ZERO_CHECK;
+		};
+		16E1F6FBB935437080117599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08015BF4D22149E6A5E58731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3307F35FC0C4C8EB60AF51A;
+			remoteInfo = ZERO_CHECK;
+		};
+		972A75149100452F965BF074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08015BF4D22149E6A5E58731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701C7FF25E194679917A6935;
+			remoteInfo = xlua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DAF2CBB210B4A4BB70771BE /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		109150E1511F4D0C9A1BBF11 /* /Users/Jonny/Project/xlua_libs/build/luasocket/udp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = udp.c; path = luasocket/udp.c; sourceTree = SOURCE_ROOT; };
+		19BD9B9E13EC426797E04D1E /* /Users/Jonny/Project/xlua_libs/build/memory_leak_checker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = memory_leak_checker.c; path = memory_leak_checker.c; sourceTree = SOURCE_ROOT; };
+		21C643DE187A44F7AE416483 /* /Users/Jonny/Project/xlua_libs/build/build_ios/CMakeFiles/xlua.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build_ios/CMakeFiles/xlua.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		2D1574B741AC4202806D6121 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltablib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ltablib.c; path = "lua-5.3.5/src/ltablib.c"; sourceTree = SOURCE_ROOT; };
+		32AE785AD3BF4F52B6CE9400 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loslib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = loslib.c; path = "lua-5.3.5/src/loslib.c"; sourceTree = SOURCE_ROOT; };
+		3A512223E57241378B6B8277 /* /Users/Jonny/Project/xlua_libs/build/luasocket/inet.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = inet.c; path = luasocket/inet.c; sourceTree = SOURCE_ROOT; };
+		41C04BDCE5464A66A50C47FE /* /Users/Jonny/Project/xlua_libs/build/xlua.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xlua.c; path = xlua.c; sourceTree = SOURCE_ROOT; };
+		429BA8C4D0624028BE7107D3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lgc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lgc.c; path = "lua-5.3.5/src/lgc.c"; sourceTree = SOURCE_ROOT; };
+		44D8966DE15C4F8E81961162 /* /Users/Jonny/Project/xlua_libs/build/perflib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = perflib.c; path = perflib.c; sourceTree = SOURCE_ROOT; };
+		4624E8694201457084FB387F /* /Users/Jonny/Project/xlua_libs/build/luasocket/luasocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = luasocket.c; path = luasocket/luasocket.c; sourceTree = SOURCE_ROOT; };
+		4E646134272D432388261D75 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lparser.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lparser.c; path = "lua-5.3.5/src/lparser.c"; sourceTree = SOURCE_ROOT; };
+		4F76BABB74294F7C92D2CBF8 /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		524913C3A67845008487C9FC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/llex.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = llex.c; path = "lua-5.3.5/src/llex.c"; sourceTree = SOURCE_ROOT; };
+		52BB70D60B474082B51B9234 /* /Users/Jonny/Project/xlua_libs/build/luasocket/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = luasocket/io.c; sourceTree = SOURCE_ROOT; };
+		5507077C2425405EAD753DCA /* xlua */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libxlua.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E5E31F1662430C8DAD8FB7 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/liolib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = liolib.c; path = "lua-5.3.5/src/liolib.c"; sourceTree = SOURCE_ROOT; };
+		5AB9D11AC3A8446A8AEB3F59 /* /Users/Jonny/Project/xlua_libs/build/luasocket/mime.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mime.c; path = luasocket/mime.c; sourceTree = SOURCE_ROOT; };
+		61FEBA3326ED420E9518FEE3 /* /Users/Jonny/Project/xlua_libs/build/lua-protobuf/pb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pb.c; path = "lua-protobuf/pb.c"; sourceTree = SOURCE_ROOT; };
+		6A5749BCCA474AF4882C99C9 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lopcodes.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lopcodes.c; path = "lua-5.3.5/src/lopcodes.c"; sourceTree = SOURCE_ROOT; };
+		6AC0161E86DA4C95839A70F4 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldump.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldump.c; path = "lua-5.3.5/src/ldump.c"; sourceTree = SOURCE_ROOT; };
+		6ADC398FDCD44E0E93516433 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbitlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lbitlib.c; path = "lua-5.3.5/src/lbitlib.c"; sourceTree = SOURCE_ROOT; };
+		6B0074C350444C94A3A65B6E /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstring.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lstring.c; path = "lua-5.3.5/src/lstring.c"; sourceTree = SOURCE_ROOT; };
+		7410EB6F72594A5792E04B1D /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lapi.c; path = "lua-5.3.5/src/lapi.c"; sourceTree = SOURCE_ROOT; };
+		7650CE0F1B7140F6A889ACFE /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldebug.c; path = "lua-5.3.5/src/ldebug.c"; sourceTree = SOURCE_ROOT; };
+		77577EAF82674166A61EEA2E /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcorolib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lcorolib.c; path = "lua-5.3.5/src/lcorolib.c"; sourceTree = SOURCE_ROOT; };
+		7C83F631F1834D698BD85207 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ltable.c; path = "lua-5.3.5/src/ltable.c"; sourceTree = SOURCE_ROOT; };
+		7CE27FF112E64313A64AE4E4 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/linit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = linit.c; path = "lua-5.3.5/src/linit.c"; sourceTree = SOURCE_ROOT; };
+		840E693A56D54500B42FE931 /* /Users/Jonny/Project/xlua_libs/build/luasocket/buffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer.c; path = luasocket/buffer.c; sourceTree = SOURCE_ROOT; };
+		846B071C966B4FACB1BC7324 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lauxlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lauxlib.c; path = "lua-5.3.5/src/lauxlib.c"; sourceTree = SOURCE_ROOT; };
+		8593855598A34813AAEF38C9 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lctype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lctype.c; path = "lua-5.3.5/src/lctype.c"; sourceTree = SOURCE_ROOT; };
+		86EA7B4915844457A4ED2886 /* /Users/Jonny/Project/xlua_libs/build/luasocket/usocket.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = usocket.c; path = luasocket/usocket.c; sourceTree = SOURCE_ROOT; };
+		8C447E127B5C4DD28DD0F165 /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8EA5550B6C944C2D887EB85A /* /Users/Jonny/Project/xlua_libs/build/i64lib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = i64lib.c; path = i64lib.c; sourceTree = SOURCE_ROOT; };
+		8F09B82870794AC896908EF8 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lzio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lzio.c; path = "lua-5.3.5/src/lzio.c"; sourceTree = SOURCE_ROOT; };
+		9456F995C1274C1FA50B263B /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lcode.c; path = "lua-5.3.5/src/lcode.c"; sourceTree = SOURCE_ROOT; };
+		9814E5A6CF6D4C09A06199BD /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstrlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lstrlib.c; path = "lua-5.3.5/src/lstrlib.c"; sourceTree = SOURCE_ROOT; };
+		99EF2A381EA04695BCC24ED0 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lutf8lib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lutf8lib.c; path = "lua-5.3.5/src/lutf8lib.c"; sourceTree = SOURCE_ROOT; };
+		9A06613049E84B8ABA622691 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbaselib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lbaselib.c; path = "lua-5.3.5/src/lbaselib.c"; sourceTree = SOURCE_ROOT; };
+		9AF13F5071A6424494C189EA /* /Users/Jonny/Project/xlua_libs/build/luasocket/options.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = options.c; path = luasocket/options.c; sourceTree = SOURCE_ROOT; };
+		9F48D6A4C9D348C3854541DF /* /Users/Jonny/Project/xlua_libs/build/luasocket/select.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = select.c; path = luasocket/select.c; sourceTree = SOURCE_ROOT; };
+		A6139EB099F546398C611956 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lfunc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lfunc.c; path = "lua-5.3.5/src/lfunc.c"; sourceTree = SOURCE_ROOT; };
+		ADE04E23899A4B4B95D8971A /* /Users/Jonny/Project/xlua_libs/build/luasocket/timeout.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timeout.c; path = luasocket/timeout.c; sourceTree = SOURCE_ROOT; };
+		C0249991FE074ADCBE93B993 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lmem.c; path = "lua-5.3.5/src/lmem.c"; sourceTree = SOURCE_ROOT; };
+		C55BCC394DA34738848111F4 /* /Users/Jonny/Project/xlua_libs/build/luasocket/except.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = except.c; path = luasocket/except.c; sourceTree = SOURCE_ROOT; };
+		C94B92B9CD464AA5A93A90A8 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lobject.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lobject.c; path = "lua-5.3.5/src/lobject.c"; sourceTree = SOURCE_ROOT; };
+		CDCB85C6539443C99C367D50 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lvm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lvm.c; path = "lua-5.3.5/src/lvm.c"; sourceTree = SOURCE_ROOT; };
+		DBB96387566B4FD1A7C90923 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldblib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldblib.c; path = "lua-5.3.5/src/ldblib.c"; sourceTree = SOURCE_ROOT; };
+		DD47F9CA76B64431955052B3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstate.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lstate.c; path = "lua-5.3.5/src/lstate.c"; sourceTree = SOURCE_ROOT; };
+		E5599601029D4EDAA654F173 /* /Users/Jonny/Project/xlua_libs/build/luasocket/auxiliar.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = auxiliar.c; path = luasocket/auxiliar.c; sourceTree = SOURCE_ROOT; };
+		E70BF1FB0D1943E586674E87 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ltm.c; path = "lua-5.3.5/src/ltm.c"; sourceTree = SOURCE_ROOT; };
+		E76B4EB1042C425BAC9353AC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loadlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = loadlib.c; path = "lua-5.3.5/src/loadlib.c"; sourceTree = SOURCE_ROOT; };
+		EA5D379C4EC24C83949B9049 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmathlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lmathlib.c; path = "lua-5.3.5/src/lmathlib.c"; sourceTree = SOURCE_ROOT; };
+		ED6A59EB23B5485988A84367 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lundump.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lundump.c; path = "lua-5.3.5/src/lundump.c"; sourceTree = SOURCE_ROOT; };
+		F2392FC2B3AB4184BF9CFECF /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ldo.c; path = "lua-5.3.5/src/ldo.c"; sourceTree = SOURCE_ROOT; };
+		FFA08D98B98C460FA46B3AE7 /* /Users/Jonny/Project/xlua_libs/build/luasocket/tcp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tcp.c; path = luasocket/tcp.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C0175A2ED464EC18A143111 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				F8037D1C7E6E4ABABA5D1F31 /* CMake Rules */,
+				4F76BABB74294F7C92D2CBF8 /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		1348B12ECF5E47EE98F00115 = {
+			isa = PBXGroup;
+			children = (
+				261E039FF3654178988E1B1F /* xlua */,
+				C027C7A07CE643B795D804AC /* ALL_BUILD */,
+				0C0175A2ED464EC18A143111 /* ZERO_CHECK */,
+				E788329136F343C58C6A408A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261E039FF3654178988E1B1F /* xlua */ = {
+			isa = PBXGroup;
+			children = (
+				7A7FAD2A5FBD4430B70E659D /* lua-5.3.5 */,
+				AAFCCB270BA849E286027BF7 /* luasocket */,
+				83C15822395E4FDC8224CD60 /* Source Files */,
+				7677578748ED49938BFAC4E2 /* Resources */,
+				0DAF2CBB210B4A4BB70771BE /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */,
+				8EA5550B6C944C2D887EB85A /* /Users/Jonny/Project/xlua_libs/build/i64lib.c */,
+				19BD9B9E13EC426797E04D1E /* /Users/Jonny/Project/xlua_libs/build/memory_leak_checker.c */,
+				44D8966DE15C4F8E81961162 /* /Users/Jonny/Project/xlua_libs/build/perflib.c */,
+				41C04BDCE5464A66A50C47FE /* /Users/Jonny/Project/xlua_libs/build/xlua.c */,
+			);
+			name = xlua;
+			sourceTree = "<group>";
+		};
+		7677578748ED49938BFAC4E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21C643DE187A44F7AE416483 /* /Users/Jonny/Project/xlua_libs/build/build_ios/CMakeFiles/xlua.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7A7FAD2A5FBD4430B70E659D /* lua-5.3.5 */ = {
+			isa = PBXGroup;
+			children = (
+				D6ABC4BA001B4E1D8EC85792 /* src */,
+			);
+			name = "lua-5.3.5";
+			sourceTree = "<group>";
+		};
+		83C15822395E4FDC8224CD60 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				61FEBA3326ED420E9518FEE3 /* /Users/Jonny/Project/xlua_libs/build/lua-protobuf/pb.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9BC89192A4A241A686344622 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AAFCCB270BA849E286027BF7 /* luasocket */ = {
+			isa = PBXGroup;
+			children = (
+				E5599601029D4EDAA654F173 /* /Users/Jonny/Project/xlua_libs/build/luasocket/auxiliar.c */,
+				840E693A56D54500B42FE931 /* /Users/Jonny/Project/xlua_libs/build/luasocket/buffer.c */,
+				C55BCC394DA34738848111F4 /* /Users/Jonny/Project/xlua_libs/build/luasocket/except.c */,
+				3A512223E57241378B6B8277 /* /Users/Jonny/Project/xlua_libs/build/luasocket/inet.c */,
+				52BB70D60B474082B51B9234 /* /Users/Jonny/Project/xlua_libs/build/luasocket/io.c */,
+				4624E8694201457084FB387F /* /Users/Jonny/Project/xlua_libs/build/luasocket/luasocket.c */,
+				5AB9D11AC3A8446A8AEB3F59 /* /Users/Jonny/Project/xlua_libs/build/luasocket/mime.c */,
+				9AF13F5071A6424494C189EA /* /Users/Jonny/Project/xlua_libs/build/luasocket/options.c */,
+				9F48D6A4C9D348C3854541DF /* /Users/Jonny/Project/xlua_libs/build/luasocket/select.c */,
+				FFA08D98B98C460FA46B3AE7 /* /Users/Jonny/Project/xlua_libs/build/luasocket/tcp.c */,
+				ADE04E23899A4B4B95D8971A /* /Users/Jonny/Project/xlua_libs/build/luasocket/timeout.c */,
+				109150E1511F4D0C9A1BBF11 /* /Users/Jonny/Project/xlua_libs/build/luasocket/udp.c */,
+				86EA7B4915844457A4ED2886 /* /Users/Jonny/Project/xlua_libs/build/luasocket/usocket.c */,
+			);
+			name = luasocket;
+			sourceTree = "<group>";
+		};
+		C027C7A07CE643B795D804AC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9BC89192A4A241A686344622 /* CMake Rules */,
+				8C447E127B5C4DD28DD0F165 /* /Users/Jonny/Project/xlua_libs/build/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D6ABC4BA001B4E1D8EC85792 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7410EB6F72594A5792E04B1D /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lapi.c */,
+				846B071C966B4FACB1BC7324 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lauxlib.c */,
+				9A06613049E84B8ABA622691 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbaselib.c */,
+				6ADC398FDCD44E0E93516433 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbitlib.c */,
+				9456F995C1274C1FA50B263B /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcode.c */,
+				77577EAF82674166A61EEA2E /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcorolib.c */,
+				8593855598A34813AAEF38C9 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lctype.c */,
+				DBB96387566B4FD1A7C90923 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldblib.c */,
+				7650CE0F1B7140F6A889ACFE /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldebug.c */,
+				F2392FC2B3AB4184BF9CFECF /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldo.c */,
+				6AC0161E86DA4C95839A70F4 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldump.c */,
+				A6139EB099F546398C611956 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lfunc.c */,
+				429BA8C4D0624028BE7107D3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lgc.c */,
+				7CE27FF112E64313A64AE4E4 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/linit.c */,
+				58E5E31F1662430C8DAD8FB7 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/liolib.c */,
+				524913C3A67845008487C9FC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/llex.c */,
+				EA5D379C4EC24C83949B9049 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmathlib.c */,
+				C0249991FE074ADCBE93B993 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmem.c */,
+				E76B4EB1042C425BAC9353AC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loadlib.c */,
+				C94B92B9CD464AA5A93A90A8 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lobject.c */,
+				6A5749BCCA474AF4882C99C9 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lopcodes.c */,
+				32AE785AD3BF4F52B6CE9400 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loslib.c */,
+				4E646134272D432388261D75 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lparser.c */,
+				DD47F9CA76B64431955052B3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstate.c */,
+				6B0074C350444C94A3A65B6E /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstring.c */,
+				9814E5A6CF6D4C09A06199BD /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstrlib.c */,
+				7C83F631F1834D698BD85207 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltable.c */,
+				2D1574B741AC4202806D6121 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltablib.c */,
+				E70BF1FB0D1943E586674E87 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltm.c */,
+				ED6A59EB23B5485988A84367 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lundump.c */,
+				99EF2A381EA04695BCC24ED0 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lutf8lib.c */,
+				CDCB85C6539443C99C367D50 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lvm.c */,
+				8F09B82870794AC896908EF8 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lzio.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		E788329136F343C58C6A408A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5507077C2425405EAD753DCA /* xlua */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8037D1C7E6E4ABABA5D1F31 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701C7FF25E194679917A6935 /* xlua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29124EA411F246B582F724E7 /* Build configuration list for PBXNativeTarget "xlua" */;
+			buildPhases = (
+				008137B0EF9A4E7BA149B5CB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB308E7E33E8462B9E3EE663 /* PBXTargetDependency */,
+			);
+			name = xlua;
+			productName = xlua;
+			productReference = 5507077C2425405EAD753DCA /* xlua */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08015BF4D22149E6A5E58731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = A1AD68872D3943E7B965E1F9 /* Build configuration list for PBXProject "XLua" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4301756671D9449FA042CB4F /* Debug */,
+				1C7AF26E4D7E41638C53CBC3 /* Release */,
+				663AE98E2B194609B146B2DC /* MinSizeRel */,
+				18BB00D51F134D59A5AA8C39 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1348B12ECF5E47EE98F00115;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				7DD7C2D1C6D749EC97FDA3B3 /* ALL_BUILD */,
+				B3307F35FC0C4C8EB60AF51A /* ZERO_CHECK */,
+				701C7FF25E194679917A6935 /* xlua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0949758EEDB64F77B2A400D1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2DAB734ACFB141E189841B96 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BAF30B3617EC47F1AC95BA10 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Jonny/Project/xlua_libs/build/build_ios -f /Users/Jonny/Project/xlua_libs/build/build_ios/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CDC1378B243F48509BA25BAD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Jonny/Project/xlua_libs/build/build_ios -f /Users/Jonny/Project/xlua_libs/build/build_ios/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008137B0EF9A4E7BA149B5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D3CE472E724FB7829C1130 /* /Users/Jonny/Project/xlua_libs/build/i64lib.c */,
+				78E69939BABA4B8AAE813CB3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lapi.c */,
+				9968403A2DB647E98C78A038 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lauxlib.c */,
+				70A6F9CC40CB4DBEB4432648 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbaselib.c */,
+				909CCEDE86CB4305AFD06C0A /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lbitlib.c */,
+				500B280622E145A2BB189BA3 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcode.c */,
+				55412D42B64345E5AB5618A2 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lcorolib.c */,
+				EDA8A48C772D427391DA3A2D /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lctype.c */,
+				4D5986B4756448B49431A85A /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldblib.c */,
+				408FCFC19E1F4245A460CDC1 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldebug.c */,
+				C823FE610A6D4A53A37A0BD0 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldo.c */,
+				FAB3A68CB8DD443DAA504593 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ldump.c */,
+				5F1BF4A263FA43B28DB939BF /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lfunc.c */,
+				D5C72D364FA3464C9B58A206 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lgc.c */,
+				B612889136A842B4A4A7B562 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/linit.c */,
+				3F0FF4436D884A6AA5D7F491 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/liolib.c */,
+				868DA3B62BEE4938B64B0703 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/llex.c */,
+				CCB76DBC51474B2892344571 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmathlib.c */,
+				27BF6F23528A41D0B60E7098 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lmem.c */,
+				5F819E7628404E06ACD73476 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loadlib.c */,
+				C1B3C60183B440049F78372B /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lobject.c */,
+				45ADA889CBB84681BEE831A0 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lopcodes.c */,
+				959B57DAC480460689033F1F /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/loslib.c */,
+				AC16E9141A6349029BC92614 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lparser.c */,
+				0A720A6451C14A8CB3EF6240 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstate.c */,
+				904B28A9112D499E8A7BA557 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstring.c */,
+				1E7535BB6C704E0FA7F2591A /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lstrlib.c */,
+				EB8EE6375671467C95364F96 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltable.c */,
+				7A63C4406AD04254B1382C36 /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltablib.c */,
+				7B1DA1C0C7824BE69946F85D /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/ltm.c */,
+				960A476FF3E1417EA1B90EDC /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lundump.c */,
+				43D9FEAB4753465790B271FD /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lutf8lib.c */,
+				65FAD099D65A49209142476F /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lvm.c */,
+				1752E16F1EE441E6BA55135B /* /Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src/lzio.c */,
+				BAFD72C94081408F8B4086B7 /* /Users/Jonny/Project/xlua_libs/build/lua-protobuf/pb.c */,
+				1DD9873B29A94AD6B29D243E /* /Users/Jonny/Project/xlua_libs/build/luasocket/auxiliar.c */,
+				4CEEEFD5EEC14F378EBECF41 /* /Users/Jonny/Project/xlua_libs/build/luasocket/buffer.c */,
+				6873B2223AF7468EB6E3D17A /* /Users/Jonny/Project/xlua_libs/build/luasocket/except.c */,
+				73DA039287D94CB980246BE9 /* /Users/Jonny/Project/xlua_libs/build/luasocket/inet.c */,
+				68B13A2857284D1986BD9483 /* /Users/Jonny/Project/xlua_libs/build/luasocket/io.c */,
+				10B794982FC24066B938CCDB /* /Users/Jonny/Project/xlua_libs/build/luasocket/luasocket.c */,
+				A250E1A3BD524B689CAC56B1 /* /Users/Jonny/Project/xlua_libs/build/luasocket/mime.c */,
+				FDB8B8F0206344FBA3052538 /* /Users/Jonny/Project/xlua_libs/build/luasocket/options.c */,
+				BAA63637FB0D43F9BB58B640 /* /Users/Jonny/Project/xlua_libs/build/luasocket/select.c */,
+				E5DC42785889467DA91F2EAE /* /Users/Jonny/Project/xlua_libs/build/luasocket/tcp.c */,
+				8018043AEB4B432F85474C02 /* /Users/Jonny/Project/xlua_libs/build/luasocket/timeout.c */,
+				4956B2F975404FAC989378D8 /* /Users/Jonny/Project/xlua_libs/build/luasocket/udp.c */,
+				6E8073113BD04BEC8032673F /* /Users/Jonny/Project/xlua_libs/build/luasocket/usocket.c */,
+				F4474E10C67243EF81BE9907 /* /Users/Jonny/Project/xlua_libs/build/memory_leak_checker.c */,
+				DFF3E7E105074EEDA8DE7384 /* /Users/Jonny/Project/xlua_libs/build/perflib.c */,
+				E146DBB74353417F96AB554F /* /Users/Jonny/Project/xlua_libs/build/xlua.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		675AFD9ED798425EBD1295BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701C7FF25E194679917A6935 /* xlua */;
+			targetProxy = 972A75149100452F965BF074 /* PBXContainerItemProxy */;
+		};
+		A3F31D5B014B419A88D9D347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3307F35FC0C4C8EB60AF51A /* ZERO_CHECK */;
+			targetProxy = 0B52693EB13A4ED494EA7E8D /* PBXContainerItemProxy */;
+		};
+		BB308E7E33E8462B9E3EE663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3307F35FC0C4C8EB60AF51A /* ZERO_CHECK */;
+			targetProxy = 16E1F6FBB935437080117599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24875CFFD1874821AE088A3F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fembed-bitcode  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2493A4F0ACFA4697BD5EAF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DFE889C20684A03A499B185 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2EE3AE592F434135BD565BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		52A437538D614C5F92129D16 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = MinSizeRel;
+		};
+		55C94BA29A5543EF85176256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7545C73257404997BB24C7A2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		834CD4992CE44A228DC2CEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fembed-bitcode  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8450EC9C8C3146F185C26DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		875A961A753E4D9F942F30D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		969AD4BFEA1945A4AD84A3FF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9CB97CC697964E34A7710103 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D2A283DC24214524819547C1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fembed-bitcode  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D3E2A3208D604FE4A08500B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk;
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RelWithDebInfo;
+		};
+		D63FFF309B904EB0BD8CD1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " -fembed-bitcode  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlua;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FBD046B4B82C49F4BF7F5F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/Jonny/Project/xlua_libs/build,"/Users/Jonny/Project/xlua_libs/build/lua-5.3.5/src",/Users/Jonny/Project/xlua_libs/build/build_ios,"/Users/Jonny/Project/xlua_libs/build/lua-protobuf");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Jonny/Project/xlua_libs/build/build_ios;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29124EA411F246B582F724E7 /* Build configuration list for PBXNativeTarget "xlua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63FFF309B904EB0BD8CD1BE /* Debug */,
+				834CD4992CE44A228DC2CEFE /* Release */,
+				24875CFFD1874821AE088A3F /* MinSizeRel */,
+				D2A283DC24214524819547C1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72E4F7A4F3F448439FC47A59 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE3AE592F434135BD565BFD /* Debug */,
+				FBD046B4B82C49F4BF7F5F99 /* Release */,
+				969AD4BFEA1945A4AD84A3FF /* MinSizeRel */,
+				7545C73257404997BB24C7A2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1AD68872D3943E7B965E1F9 /* Build configuration list for PBXProject "XLua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2493A4F0ACFA4697BD5EAF9A /* Debug */,
+				8450EC9C8C3146F185C26DF1 /* Release */,
+				52A437538D614C5F92129D16 /* MinSizeRel */,
+				D3E2A3208D604FE4A08500B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE48E9C5753642BBAB623ED9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875A961A753E4D9F942F30D3 /* Debug */,
+				55C94BA29A5543EF85176256 /* Release */,
+				2DFE889C20684A03A499B185 /* MinSizeRel */,
+				9CB97CC697964E34A7710103 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08015BF4D22149E6A5E58731 /* Project object */;
+}
