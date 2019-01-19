@@ -1,3 +1,0 @@
-/Users/Jonny/Project/xlua_libs/build/build_v7a/CMakeFiles/rebuild_cache.dir
-/Users/Jonny/Project/xlua_libs/build/build_v7a/CMakeFiles/edit_cache.dir
-/Users/Jonny/Project/xlua_libs/build/build_v7a/CMakeFiles/xlua.dir
