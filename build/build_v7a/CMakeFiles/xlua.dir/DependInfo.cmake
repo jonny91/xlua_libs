@@ -65,14 +65,14 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../"
-  "../lua-5.3.5/src"
-  "."
-  "../lua-protobuf"
   "/Users/Jonny/android-ndk-r10e/platforms/android-9/arch-arm/usr/include"
   "/Users/Jonny/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include"
   "/Users/Jonny/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include"
   "/Users/Jonny/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.8/include/backward"
+  "../"
+  "../lua-5.3.5/src"
+  "."
+  "../lua-protobuf"
   )
 
 # Targets to which this target links.
