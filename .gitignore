@@ -32,3 +32,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/build/build_ios
+/build/build_v7a
+/build/build_x86
+/build/build64
+/build/build32
