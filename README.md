@@ -19,7 +19,13 @@ xlua集成一些库
 
   https://github.com/starwing/lua-protobuf
 
+  P.S.在入口类中添加
 
+```csharp
+LuaEnv.LuaEnv.AddBuildin("pb", XLua.LuaDLL.Lua.LoadLuaProtobuf);
+```
+
+​	最近会上传Example。
 
 ## TODO
 

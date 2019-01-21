@@ -8,7 +8,7 @@ namespace XLua.LuaDLL
         public static extern int luaopen_pb(System.IntPtr L);
 
         [MonoPInvokeCallback(typeof(LuaDLL.lua_CSFunction))]
-        public static int LoadLuaProfobuf(System.IntPtr L)
+        public static int LoadLuaProtobuf(System.IntPtr L)
         {
             return luaopen_pb(L);
         }
