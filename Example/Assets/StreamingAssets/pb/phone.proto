@@ -1,0 +1,4 @@
+message Phone {
+      optional string name        = 1;
+      optional int64  phonenumber = 2;
+}

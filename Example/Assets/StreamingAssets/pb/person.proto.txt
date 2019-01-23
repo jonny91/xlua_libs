@@ -1,0 +1,8 @@
+//import "phone.proto";
+
+message Person {
+     optional string name     = 1;
+     optional int32  age      = 2;
+     optional string address  = 3;
+     //repeated Phone  contacts = 4;
+}
