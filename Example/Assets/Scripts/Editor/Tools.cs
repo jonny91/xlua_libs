@@ -12,7 +12,7 @@ using UnityEngine;
 
 public class Tools : Editor
 {
-    [MenuItem("Tools/MoveLuaToSA")]
+    [MenuItem("Tools/MoveLuaToSA %e")]
     public static void MoveLuaFileToStreamingAssetHandler()
     {
         var luaSourceFolder = Application.dataPath + Path.DirectorySeparatorChar + "Lua";

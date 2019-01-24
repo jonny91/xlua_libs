@@ -9,7 +9,8 @@ local protobuff = require("protobuff_test")
 local meta = {}
 
 function meta.awake()
-    protobuff:test()
+    local textfield = meta.ResultText:GetComponent(typeof(CS.UnityEngine.UI.Text))
+    textfield.text = protobuff:test()
 end
 
 function meta.destroy()

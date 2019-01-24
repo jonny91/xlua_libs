@@ -47,7 +47,10 @@ message Person {
     print(pb.tohex(bytes))
 
     local data2 = assert(pb.decode("Person", bytes))
-    print(require "serpent".block(data2))
+    local data2_text = require "serpent".block(data2)
+    print(data2_text)
+    
+    return data2_text
 end
 
 return meta
