@@ -24,10 +24,12 @@ xlua集成一些库
 ```csharp
 LuaEnv.LuaEnv.AddBuildin("pb", XLua.LuaDLL.Lua.LoadLuaProtobuf);
 ```
+ 详细使用可以查看 Example 项目
 
 
 ## TODO
 - [x] iOS测试项目
-- [ ] Android测试项目
-- [ ] Windows测试项目
+- [x] Android测试项目
+- [x] Windows测试项目
+- [x] Mac osX测试项目
 - [ ] json工具
