@@ -17,6 +17,7 @@ public class LuaFrameworkEntry : LuaMonoBehaviour
 //        LuaEnv.AddLoader(LuaDirectoryLoader.Loader);
 
         LuaEnv.AddBuildin("pb", XLua.LuaDLL.Lua.LoadLuaProtobuf);
+        LuaEnv.AddBuildin("rapidjson", XLua.LuaDLL.Lua.LoadRapidJson);
 
         base.Awake();
     }

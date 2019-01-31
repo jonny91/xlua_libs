@@ -7,15 +7,6 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets/Lua" t="Include">
-        <e p="protobuff_test.lua" t="Include" />
-        <e p="protoc.lua" t="Include" />
-        <e p="serpent.lua" t="Include" />
-        <e p="start.lua" t="Include" />
-        <e p="test.lua" t="Include" />
-        <e p="ui_helper.lua" t="Include" />
-        <e p="util.lua" t="Include" />
-      </e>
       <e p="Assets/Scripts" t="Include">
         <e p="BehaviourInjection.cs" t="Include" />
         <e p="BuildInInit.cs" t="Include" />
@@ -405,7 +396,6 @@
         </e>
         <e p="pb" t="Include">
           <e p="person.proto.txt" t="Include" />
-          <e p="phone.proto" t="Include" />
         </e>
       </e>
       <e p="Assets/XLua" t="Include">

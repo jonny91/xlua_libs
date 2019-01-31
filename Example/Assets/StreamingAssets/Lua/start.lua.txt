@@ -5,12 +5,15 @@
 ---
 
 local protobuff = require("protobuff_test")
+local rapidjson = require "rapidjson"
 
 local meta = {}
 
 function meta.awake()
     local textfield = meta.ResultText:GetComponent(typeof(CS.UnityEngine.UI.Text))
-    textfield.text = protobuff:test()
+    --textfield.text = protobuff:test()
+    local o = rapidjson.decode("{\"project\":\"rapidjson\",\"stars\":10}")
+    textfield.text = o.project
 end
 
 function meta.destroy()

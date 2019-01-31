@@ -1,4 +1,5 @@
-# xlua_libs
+xlua_libs
+
 xlua集成一些库
 
 会根据情况更新xLua 或者 其他Lib的版本。
@@ -21,15 +22,17 @@ xlua集成一些库
 
   P.S.在入口类中添加
 
-```csharp
-LuaEnv.LuaEnv.AddBuildin("pb", XLua.LuaDLL.Lua.LoadLuaProtobuf);
-```
- 详细使用可以查看 Example 项目
+  ```csharp
+  LuaEnv.LuaEnv.AddBuildin("pb", XLua.LuaDLL.Lua.LoadLuaProtobuf);
+  ```
+- rapidjson
+
+  https://github.com/Tencent/rapidjson
+
+  ```csharp
+  LuaEnv.LuaEnv.AddBuildin("rapidjson", XLua.LuaDLL.Lua.LoadLuaProtobuf);
+  ```
 
 
-## TODO
-- [x] iOS测试项目
-- [x] Android测试项目
-- [x] Windows测试项目
-- [x] Mac osX测试项目
-- [ ] json工具
+详细使用可以查看 Example 项目
+
