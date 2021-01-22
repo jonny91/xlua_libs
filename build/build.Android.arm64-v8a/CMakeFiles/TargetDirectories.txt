@@ -1,0 +1,3 @@
+/Users/Jonny/Project/xlua_libs/build/build.Android.arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/Jonny/Project/xlua_libs/build/build.Android.arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/Jonny/Project/xlua_libs/build/build.Android.arm64-v8a/CMakeFiles/xlua.dir
